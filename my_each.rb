@@ -1,5 +1,5 @@
 def my_each (collection)
-  do |i|
+  collection.do {|i|
     puts i
-  end
+  }
 end
